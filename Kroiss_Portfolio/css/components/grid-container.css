@@ -1,0 +1,55 @@
+.GridContainer {
+    width: 73em;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(6, 10fr);
+    grid-column-gap: 2em;
+}
+
+.GridContainer--header {
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: "topbar topbar topbar topbar topbar topbar" "title title title title title title" ". . downicon downicon . .";
+}
+
+.GridContainer--welcome {
+    padding: 4em 0;
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas: ". content content content content ." ". . topicon topicon . .";
+}
+
+.GridContainer--skills {
+    padding: 4em 0;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: ". content content content content ." "skills skills skills skills skills skills" ". . topicon topicon . .";
+}
+
+.GridContainer--portfolio {
+    padding: 4em 0;
+    grid-template-rows: repeat(4, max-content);
+    grid-template-areas: ". content content content content ." "portfolio portfolio portfolio portfolio portfolio portfolio" ". . topicon topicon . .";
+}
+
+.GridContainer--contact {
+    padding: 4em 0;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: ". content content content content ." ". contactform contactform contactform contactform ." ". . topicon topicon . .";
+}
+
+.GridContainer--footer {
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: ". . logo logo . ." ". contactaddress contactaddress contactaddress contactaddress ." ". social-icons social-icons social-icons social-icons ." ". imprint imprint imprint imprint .";
+}
+
+@media screen and (max-width: 1200px) {
+    .GridContainer {
+        width: 70em;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .GridContainer {
+        width: 98%;
+    }
+}

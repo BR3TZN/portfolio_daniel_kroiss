@@ -1,0 +1,49 @@
+.TopBar {
+    grid-area: topbar;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;opacity: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.TopBar-background {
+
+}
+
+.TopBar-navigation {
+    font-size: 1.25rem;
+}
+
+.TopBar-list{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.TopBar-listItem:not(:last-child) {
+    margin-right: 2em;
+}
+
+@media screen and (max-width: 720px) {
+    .TopBar {
+        flex-direction: column;
+        text-align: center;
+        padding: 0.5em;
+    }
+
+    .TopBar-navigation {
+        margin: 0.5em 0;
+    }
+
+    .TopBar-list {
+        flex-direction: column;
+    }
+
+    .TopBar-navigation ul li:not(:last-child) {
+        margin: 0;
+    }
+}

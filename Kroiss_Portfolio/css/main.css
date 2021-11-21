@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ranga&family=Rhodium+Libre&family=Roboto:wght@100;300&display=swap');
+
+
+@import "generals_elements/normalize.css";
+@import "generals_elements/variables.css";
+@import "generals_elements/elements.css";
+
+@import "components/button.css";
+@import "components/contact-forms.css";
+@import "components/content.css";
+@import "components/arrows.css";
+@import "components/footer.css";
+@import "components/grid-container.css";
+@import "components/header.css";
+@import "components/input.css";
+@import "components/portfolio.css";
+@import "components/section.css";
+@import "components/SocialMedia.css";
+@import "components/title.css";
+@import "components/top-bar.css";
+@import "components/top-icon.css";
+@import "components/welcome.css";
+
+@import "utilities/resize.css";

@@ -1,0 +1,4 @@
+.Content {
+    grid-area: content;
+    height: auto;
+}

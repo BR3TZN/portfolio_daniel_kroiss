@@ -1,0 +1,38 @@
+.Input {
+    display: flex;
+    flex-direction: column;
+}
+
+.Input-label {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.Input-field {
+    font-size: 1rem;
+    font-family: inherit;
+    border: 1px solid var(--dark-accent);
+    padding: 1rem;
+}
+
+.Input--subject {
+    grid-area: subject;
+}
+
+.Input--message {
+    grid-area: message;
+}
+
+@media screen and (max-width: 720px) {
+    .Input {
+        grid-column: 1 / 3;
+    }
+
+    .Input--subject {
+        grid-area: unset;
+    }
+
+    .Input--message {
+        grid-area: unset;
+    }
+}

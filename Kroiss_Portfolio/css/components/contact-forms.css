@@ -1,0 +1,15 @@
+.ContactForm {
+    grid-area: contactform;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-template-areas: "firstname lastname" "email website" "subject subject" "message message" "send reset";
+    grid-gap: 2em;
+    margin-top: 2em;
+}
+
+@media screen and (max-width: 720px) {
+    .ContactForm {
+        grid-template-rows: none;
+    }
+}

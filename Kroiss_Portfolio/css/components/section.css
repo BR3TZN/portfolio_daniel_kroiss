@@ -1,0 +1,34 @@
+.Sectionportfolio:nth-child(2n) {
+    background-color: var(--medium-accent);
+    width: 100%;
+    height: 120vh;
+    background-image: url("../../images/ps5controller.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 100%;
+}
+
+.background2{
+    background-color: var(--medium-accent);
+    width: 100%;
+    height: 105vh;
+    background-image: url("../../images/patrik-storm-alstra-pictures-PSctagTn_28-unsplash.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 100%;
+}
+
+.content{
+    background-color: var(--medium-accent);
+    width: 100%;
+    height: 100vh;
+
+    background-image: url("../../images/socials background.jpg");
+    background-size: contain;
+    opacity: 100%;
+}
+
+
+.content{
+
+}

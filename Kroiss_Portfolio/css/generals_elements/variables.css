@@ -1,0 +1,13 @@
+:root {
+    --text-color: rgb(94, 94, 94);
+    --heading-color: rgb(0, 0, 0);
+    --dark-accent: rgb(227, 141, 11);
+    --dark-accent-semi: rgb(94, 94, 94);
+    --medium-accent: rgba(255, 53, 28, 0.13);
+    --light-accent: rgb(255, 255, 255);
+    --color-accent: rgb(255, 163, 0);
+    --color-accent-light: rgb(255, 187, 106);
+    --color-accent-footer: rgb(89, 89, 89);
+    --color-accent-paragraph: rgb(0, 0, 0);
+    --color-accent-background2: rgba(238, 238, 238, 0.16);;
+}

@@ -1,0 +1,31 @@
+@keyframes arrow-pulse {
+    0% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.DownIcon {
+    grid-area: downicon;
+    margin-bottom: 2em;
+    text-align: center;
+
+}.UpIcon {
+    grid-area: downicon;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.DownIcon-image {
+    width: 4em;
+    animation: arrow-pulse 2.5s ease-in-out infinite alternate;
+}
+.upIcon-image {
+    width: 1.25em;
+    animation: arrow-pulse 2.5s ease-in-out infinite alternate;
+}

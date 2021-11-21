@@ -1,0 +1,26 @@
+.SocialMedia {
+    grid-area: skills;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2em;
+}
+
+.SocialMedia {
+    margin-top: 4em;
+    text-align: center;
+}
+
+.socials-image {
+    transition: all 0.25s ease-in;
+}
+
+.socials-image:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 720px) {
+    .SkillList {
+        grid-template-columns: 1fr;
+        padding: 0 2em;
+    }
+}
